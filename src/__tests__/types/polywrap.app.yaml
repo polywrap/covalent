@@ -1,0 +1,9 @@
+format: 0.4.0
+project:
+  name: Covalent
+  type: app/typescript
+source:
+  schema: ./schema.graphql
+  import_abis:
+    - uri: wrap://wrapscan.io/polywrap/covalent@1.0
+      abi: ../../../build/wrap.info

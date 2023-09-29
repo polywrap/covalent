@@ -1,0 +1,7 @@
+format: 0.5.0
+project:
+  name: covalent
+  type: wasm/assemblyscript
+source:
+  schema: ./polywrap.graphql
+  module: ./src/index.ts
