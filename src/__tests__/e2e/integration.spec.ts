@@ -24,7 +24,6 @@ describe("Ethereum", () => {
         }
       );
 
-      console.log(result);
       expect(result.ok).toBeTruthy();
       if (!result.ok) throw new Error("Response is not ok");
       expect(result.value).toBeTruthy();
