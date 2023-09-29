@@ -29,5 +29,5 @@ jobs:
 
       - name: Test
         run: yarn test
-        env: |
+        env:
           COVALENT_API_KEY: ${{secrets.COVALENT_API_KEY}}
