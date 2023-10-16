@@ -2,7 +2,7 @@
   "name": "covalent",
   "description": "Covalent Wrapper",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "scripts": {
     "codegen": "npx polywrap codegen",
     "build": "npx polywrap build",
