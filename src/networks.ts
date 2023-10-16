@@ -43,6 +43,10 @@ export const networks = new Map<string, Network>()
   .set("250", {
     chainId: "fantom-mainnet",
     chainName: "Fantom Opera",
+  })
+  .set("5", {
+    chainId: "eth-goerli",
+    chainName: "ETH Goerli"
   });
 
 export function getNetwork(chainId: string): Network {
